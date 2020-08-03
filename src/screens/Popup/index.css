@@ -1,0 +1,16 @@
+.popup__img {
+  object-fit: contain;
+  width: 100%;
+  height: 400px;
+}
+
+.zoom__tools {
+  position: absolute;
+  left: 70px;
+  z-index: 1;
+  top: 100px;
+}
+
+.margin-right {
+  margin-right: 5px;
+}

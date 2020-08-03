@@ -1,0 +1,21 @@
+.gallery__main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.gallery__inner_container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.gallery__image_container {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.gallery__image_container:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
